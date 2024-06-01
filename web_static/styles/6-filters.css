@@ -29,10 +29,12 @@ section.filters button:hover {
 }
 
 /*Styling the Location and Amenity part of the bar*/
+
 .locations, .amenities {
 	height: 100%;
 	width: 25%;
 	float: left;
+	vertical-align: middle;
 	
 }
 
