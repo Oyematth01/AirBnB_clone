@@ -5,7 +5,7 @@
 ### Project Goal
 
 The goal of this project is to deploy a simple copy of the AirBnB website on a server.
-![Image description of the Clone Project](The_clone_deescription_image.png)
+![Image description of the Clone Project](The_clone_description_image.png)
 
 ### Project Description
 
