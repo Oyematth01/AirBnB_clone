@@ -181,3 +181,9 @@ Here are the commands recognized by the interpreter:
    ```bash
    (hbnb) destroy User 1234-5678-9101
    ```
+
+# Authors
+
+## Oyelami Matthew
+
+- **Email**: [oyematth@gmail.com](mailto:oyematth@gmail.com)
