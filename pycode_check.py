@@ -6,7 +6,7 @@ def greet(name):
 
 
 def main():
-    print(greet("Matthew"))
+    print(greet("Oyelami Matthew"))
 
 
 if __name__ == '__main__':
