@@ -34,6 +34,17 @@ class TestBaseModel(unittest.TestCase):
         time.sleep(1)  # Ensure there is a noticeable time difference
         instance.save()
         self.assertNotEqual(old_updated_at, instance.updated_at)
+    
+	def test_str(self):
+        """Test the __str__ method."""
+        instance = BaseModel()
+        expected_str = "[BaseModel] ({}) {{'id': '{}', 'created_at': '{}', 'updated_at': '{}'}}".format(
+            instance.id,
+            instance.id,
+            instance.created_at.isoformat(),
+            instance.updated_at.isoformat()
+        )
+        self.assertEqual(str(instance), expected_str)
 
 if __name__ == '__main__':
     unittest.main()
